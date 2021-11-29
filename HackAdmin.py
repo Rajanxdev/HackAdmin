@@ -193,10 +193,11 @@ for hani in passe :
         openurl = urllib.request.urlopen(curl)
         print("\033[92m[+] ADMIN PAGE FOUND |url| [+]  : "+curl)
     except urllib.error.URLError as msg :
-        print('''\033[91m   
+        print ("\033[91m[*] Not Dected Try Another website [*] : "+curl)
+        
+           print('''\033[91m   
              __ __| |                  |       _|                       _)                                |                | 
     |     \    _` |    \   | /     _| _ \   _|    |  | (_-<  |    \    _` |     ` \   |  |     _|   _ \   _ \  | 
    _|  _| _| \__,_| _| _| _\_\   _| \___/ _|     \_,_| ___/ _| _| _| \__, |   _|_|_| \_, |   \__| \___/ \___/ _| 
                                                                      ____/           ___/                      
             ''')
-        print ("\033[91m[*] Not Dected Try Another website [*] : "+curl)
