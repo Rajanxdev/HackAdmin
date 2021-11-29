@@ -193,5 +193,5 @@ for hani in passe :
         openurl = urllib.request.urlopen(curl)
         print("\033[92m[+] ADMIN PAGE FOUND |url| [+]  : "+curl)
     except urllib.error.URLError as msg :
-        print ("\033[91m[*] Not Dected Try Another website [*] : "+curl)
+        print ("\033[91m[*] Not Dected any loopholes in website [*] : "+curl)
        #End Thank you
